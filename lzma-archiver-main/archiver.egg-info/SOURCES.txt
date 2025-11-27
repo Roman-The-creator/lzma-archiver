@@ -1,0 +1,12 @@
+pyproject.toml
+archiver/__init__.py
+archiver/__main__.py
+archiver/cli.py
+archiver/core.py
+archiver.egg-info/PKG-INFO
+archiver.egg-info/SOURCES.txt
+archiver.egg-info/dependency_links.txt
+archiver.egg-info/entry_points.txt
+archiver.egg-info/requires.txt
+archiver.egg-info/top_level.txt
+tests/test_basic.py

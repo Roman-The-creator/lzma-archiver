@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "archiver"
+version = "0.1.0"
+description = "Simple LZMA-based file archiver with minimal metadata"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Roman The Creator" }
+]
+
+dependencies = []
+
+[project.scripts]
+archiver = "archiver.cli:main"
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "mypy",
+  "ruff",
+  "black",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["archiver"]
